@@ -1,0 +1,86 @@
+
+/*impostazioni backgroung*/
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+.container{
+    background: rgba(0, 0, 0, 0.45);
+    margin: auto;
+    width: 65%;
+    border-radius: 20px; 
+    padding: 2% 6% 4%;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+/*stile font*/
+*{
+    font-family:Helvetica, sans-serif;
+}
+
+/*stile logo*/
+#logo{
+    margin-top: 35px;
+    width: 26%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#intestazione{
+    font-size: 30px;
+    text-align: center;
+    color: rgba(0, 255, 0, 0.700);
+}
+
+/*stile buttons*/
+nav{
+    padding: 0.5%;
+    text-align: center;
+    background-color: rgba(0, 255, 0);
+}
+
+.button{
+    font-size: 11px; ;
+}
+
+/*impostazioni e stile delle informazioni*/
+main{
+    color: white;
+}
+
+.Monopattini{
+    padding-top: 5px;
+}
+
+.nome-monopattini{
+    font-size: 23px;
+}
+
+.pos-monopattini{
+    font-size: 15px;
+}
+/*impostazioni e stile barra della carica*/
+.Monopattini> div {
+    height: 25px;
+    border-radius: 5px;
+}
+
+#carica1{
+    width: 600px;
+    background-color: #17a2c2;
+}
+
+#carica2{
+    width: 300px;
+    background-color:  #d1742d;
+}
+
+#carica3{
+    width: 450px;
+    background-color: #4bbc26;
+}
+
+
+
